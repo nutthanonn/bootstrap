@@ -1,1 +1,2 @@
-document.getElementById("p").innerHTML = "hello"
+let num = Array(1, 2, 3, 4, 5)
+console.log(num[1])
