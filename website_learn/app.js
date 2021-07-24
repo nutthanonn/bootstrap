@@ -1,3 +1,3 @@
-const a = [3, 2, 1, 4]
-a.sort((a, b) => a-b)
-console.log(a);
+const a = [1, 2, 3, 4]
+a.splice(0, 3, "nut", 'mai')
+a.forEach((Element) => console.log(Element))
