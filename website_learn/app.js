@@ -1,6 +1,15 @@
-const a = [1, 3, 5, 6, 20]
-a.forEach((Element) => console.log(Element))
-const b = ['nut']
-for(let c in b){
-    console.log(c + " => " + b[c]);
+class Employee{
+    constructor(name, salary, department){
+        this.name = name
+        this.salary = salary
+        this.department = department
+    }
+
+    getData(){
+        console.log(this.name + " => " + this.salary + " => " + this.department)
+    }
 }
+
+
+const ob1 = new Employee("nut", 1000, "programmer")
+ob1.getData()
