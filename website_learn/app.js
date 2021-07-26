@@ -1,15 +1,31 @@
-class Employee{
-    constructor(name, salary, department){
+class Tank{
+    constructor(name, ammo){
         this.name = name
-        this.salary = salary
-        this.department = department
+        this.ammo = ammo
     }
 
-    getData(){
-        console.log(this.name + " " + this.salary + " " + this.department)
+    shot(){
+        if(this.ammo > 0){
+            this.ammo -= 1
+        }else{
+            console.log("not Enough Ammo")
+        }
     }
+
+    addAmmo(){
+        if(this.ammo < 20){
+            this.ammo += 5
+        }else{
+            console.log("Many Ammo");
+        }
+    }
+
 }
 
-
-const ob1 = new Employee("nut", 1000, "programmer")
-ob1.getData()
+obj1 = new Tank("nut", 10)
+obj1.shot()
+obj1.shot()
+obj1.shot()
+obj1.shot()
+obj1.shot()
+console.log(obj1.ammo);
