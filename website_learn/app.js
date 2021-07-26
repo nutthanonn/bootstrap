@@ -6,7 +6,7 @@ class Employee{
     }
 
     getData(){
-        console.log(this.name + " => " + this.salary + " => " + this.department)
+        console.log(this.name + " " + this.salary + " " + this.department)
     }
 }
 
