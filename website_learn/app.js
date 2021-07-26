@@ -20,12 +20,24 @@ class Tank{
         }
     }
 
+    getData(){
+        return this.ammo + " => " + this.name
+    }
+
 }
 
-obj1 = new Tank("nut", 10)
-obj1.shot()
-obj1.shot()
-obj1.shot()
-obj1.shot()
-obj1.shot()
-console.log(obj1.ammo);
+
+class LightTank extends Tank{
+    kg(kilogram){
+        this.kilogram = kilogram
+    }
+    get(){
+        return this.kilogram
+    }
+}
+
+
+obj1 = new LightTank('nut', 10)
+obj1.kg(10)
+console.log(obj1.get());
+console.log(obj1.getData());
