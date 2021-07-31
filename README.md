@@ -1,2 +1,2 @@
-# website
+# Project Javascript
 create by Nutthanonn
