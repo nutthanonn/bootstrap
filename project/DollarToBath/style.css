@@ -1,0 +1,27 @@
+body{
+    background-color: gainsboro;
+}
+
+h1{
+    text-align: center;
+}
+
+
+form{
+    text-align: center;
+}
+
+#buttonAll{
+    text-align: center;
+}
+
+
+button{
+    margin: 10px 0 0 0;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color:goldenrod;
+    border: 1px solid black;
+}
