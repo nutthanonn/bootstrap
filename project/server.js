@@ -2,7 +2,7 @@ const http = require('http')
 const fs = require('fs')
 
 http.createServer((rej, res) =>{
-    fs.readFile((err, data)=>{
+    fs.readFile('index.html', (err, data)=>{
         if(err){
             res.writeHead(404, {'Content-text' : 'text/html'})
             return res.end('404 Not found')
