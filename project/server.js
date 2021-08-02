@@ -1,5 +1,7 @@
+// NodeJS
 const http = require('http')
 const fs = require('fs')
+
 
 http.createServer((rej, res) =>{
     fs.readFile('index.html', (err, data)=>{

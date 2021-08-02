@@ -2,19 +2,9 @@ body{
     background-color: gainsboro;
 }
 
-h1{
+h1, form, #buttonAll{
     text-align: center;
 }
-
-
-form{
-    text-align: center;
-}
-
-#buttonAll{
-    text-align: center;
-}
-
 
 button{
     margin: 10px 0 0 0;
@@ -22,6 +12,6 @@ button{
 }
 
 button:hover{
-    background-color:goldenrod;
+    background-color:rgb(22, 22, 21);
     border: 1px solid black;
 }
