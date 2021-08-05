@@ -1,0 +1,55 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+
+
+.Hello{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #e5e5e5;
+}
+
+.header1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:#333;
+    text-align: center;
+}
+
+#square{
+    width: 400px;
+    height: 400px;
+    font-size: 400px;
+    border-radius: 10px;
+    color: white;
+}
+
+@keyframes wipe-enter {
+    from{
+        color: black;
+    }
+    to{
+        color: white;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .hello {
+        width: 100px;
+        height: 100px;
+        font-size: 400px;
+        border-radius: 10px;
+        animation-name: wipe-enter;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+}
+
