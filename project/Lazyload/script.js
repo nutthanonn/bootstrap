@@ -1,6 +1,5 @@
 const container = document.getElementById('square')
-const obserevr = new IntersectionObserver(onIntersection, {rootMargin: '50px 0px'})
-
+const obserevr = new IntersectionObserver(onIntersection)
 
 obserevr.observe(container)
 
@@ -17,5 +16,3 @@ function onIntersection(entry){
   container.classList.remove('hello')
 }
 
-
-obserevr.observe(document.querySelector('.square'))
