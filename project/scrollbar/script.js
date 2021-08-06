@@ -12,11 +12,6 @@ canvas.height = 770;
 canvas.width = 1158;
 const img = new Image();
 
-img.src = currentFrame(2);
-img.onload = function(){
-    context.drawImage(img, 0, 0);
-}
-
 const updateImage = index => {
     img.src = currentFrame(index);
     context.drawImage(img, 0, 0);
