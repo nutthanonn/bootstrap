@@ -1,23 +1,22 @@
-.dropdown-content {
-    display: none;
+.dropbox{
+    display: inline-block;
 }
 
-.dropdown-content a{
+.dropdown-content{
+    display: none;
+    float: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #f7f7f7;
+    min-width: 30px;
+}
+
+.dropdown-content a {
     display: block;
     text-decoration: none;
+
 }
 
-
-.dropdown{
-    border: 1px solid black;
-    display: inline-block;
-    position: relative;
-}
-
-.dropdown:hover .dropdown-content{
+.show{
     display: block;
-}
-
-.dropdown-content a:hover{
-    background-color: gray;
+    position: absolute;
 }
