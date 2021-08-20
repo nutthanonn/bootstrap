@@ -1,8 +1,10 @@
-const dropdownContent = ()=>{
-    document.getElementById('dropdown-content').classList.toggle('show')
-}
 
+const a = [
+    {name:"nutthanon", amount:10000},
+    {name:"nutthanon", amount:3000},
+]
 
-
-const btn = document.getElementById('dropdown')
-btn.addEventListener('click', dropdownContent)
+const littleAmount = a.filter((a)=>{
+    return a.amount < 5000
+})
+console.log(littleAmount);
