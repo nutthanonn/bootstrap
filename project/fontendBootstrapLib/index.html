@@ -271,6 +271,49 @@
         </div>
     </div> -->
 
+    <!--collapse/accordion-->
+
+
+    <div class="container my-2">
+        <button class="btn btn-success my-2" data-bs-toggle="collapse" data-bs-target="#collapse-content">Click</button>
+        <div class="collapse" id="collapse-content">
+            <div class="card">
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion" id="accordion-basic">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#content1">
+                        Travel
+                    </button>
+                </h2>
+                <div id="content1">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#content2">
+                        Travel
+                    </button>
+                </h2>
+                <div id="content2">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+    </div>
+
+
     <script src="../bootstrapLibrary/js/bootstrap.js"></script>
 </body>
 </html>
