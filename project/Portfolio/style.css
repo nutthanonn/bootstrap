@@ -1,0 +1,20 @@
+.carousel-item{
+    height: 700px;
+    width: 100%;
+}
+
+
+.carousel-image-1{
+    background-image: url("https://d1dtruvuor2iuy.cloudfront.net/media/catalog/product/i/p/ipad_pro_11_wi-fi-silver_3.jpg");
+    background-size: cover;
+}
+
+.carousel-image-2{
+    background-image: url("https://www.apple.com/v/macbook-air/k/images/overview/hero_endframe__ea0qze85eyi6_large_2x.jpg");
+    background-size: cover;
+}
+
+.carousel-image-3{
+    background-image: url("https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MWP22?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1591634795000");
+    background-size: cover;
+}
