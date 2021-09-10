@@ -1,14 +1,5 @@
-const person = [
-  { name: "nutthanon", salary: 10000 },
-  { name: "isac", salary: 2000 },
-];
-
-person.map((element) => {
-  console.log(element);
+a = [1, 3, 44, 5];
+a.map((e, index) => {
+  let a = index % 2 ? "even" : "odd";
+  console.log(a, e);
 });
-
-let a = 30;
-
-const b = a < 20 ? "Hello" : "None";
-
-console.log(b);
