@@ -1,76 +1,73 @@
-body, html{
-    height: 100%;
-    margin: 0;
+body,
+html {
+  height: 100%;
+  margin: 0;
 }
 
-
-header{
-    display: flex;
-    flex-direction: row;
-    height: 3.5rem;
-    width: 100vw;
-    justify-content: center;
-    background: #333;
-    position:fixed;
+header {
+  display: flex;
+  flex-direction: row;
+  height: 3.5rem;
+  width: 100vw;
+  justify-content: center;
+  background: #333;
+  position: fixed;
 }
 
-
-
-header > ul > li{
-    display: inline-block;
-    margin-left: 50px;
+header > ul > li {
+  display: inline-block;
+  margin-left: 50px;
 }
 
-header > ul > li  > a{
-    text-decoration: none;
-    color: white;
+header > ul > li > a {
+  text-decoration: none;
+  color: white;
 }
 
-.Hello{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    background-color: #e5e5e5;
+.Hello {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #e5e5e5;
 }
 
-.header1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background:#333;
-    text-align: center;
+.header1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #333;
+  text-align: center;
 }
 
-#square{
-    width: 400px;
-    height: 400px;
-    font-size: 400px;
-    border-radius: 10px;
-    color: white;
+#square {
+  width: 400px;
+  height: 400px;
+  font-size: 400px;
+  border-radius: 10px;
+  color: white;
 }
 
 @keyframes wipe-enter {
-    from{
-        color: black;
-    }
-    to{
-        color: white;
-    }
+  from {
+    color: black;
+  }
+  to {
+    color: white;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .hello {
-        width: 100px;
-        height: 100px;
-        font-size: 400px;
-        border-radius: 10px;
-        animation-name: wipe-enter;
-        animation-duration: 5s;
-        animation-iteration-count: 1;
-    }
+  .hello {
+    width: 100px;
+    height: 100px;
+    font-size: 400px;
+    border-radius: 10px;
+    animation-name: wipe-enter;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+  }
 }
-
